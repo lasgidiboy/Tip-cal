@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Tip Calculator</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1><span class="perc">Tip</span> <span>calculator</span></h1>
+            </div>
+            <section>
+                <form id="calculator">
+                    <div class="form">
+                        <label for="">Bill Amount:</label><input type="text" name="" id="amount">
+                    </div>
+                    <div class="form">
+                        <label for="">Percentage tip:</label><input type="text" name="" id="percentage">
+                    </div>
+                    <div class="form">
+                        <label for="">Tip amount:</label><input type="text" name="" id="tip" disabled>
+                    </div>
+                    <div class="form">
+                        <label for="">Total:</label><input type="text" name="" id="total" disabled>
+                    </div>
+                    <div class="btn">
+                        <button type="submit" id="addup">Calulator</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
